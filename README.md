@@ -9,7 +9,7 @@ original one : https://github.com/lintangtimur/ovoid
 updated and working  : 14/06/2023 
 
 ## Installation
-You can install this library by cloning this repository and then running `npm install` in your terminal.
+You can install this library by running `npm install` in your terminal.
 
 ```bash
 npm install ovoid-new
