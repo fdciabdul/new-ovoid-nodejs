@@ -5,8 +5,10 @@
 
 a Node.js library for interacting with the  OVO (Indonesia Digital Wallet) API. It provides functionality for fetching user balance, order history, wallet transaction history, and notification status.
 
-original one : https://github.com/lintangtimur/ovoid
-updated and working  : 14/06/2023 
+
+Updated and working  : 14/06/2023 
+
+Click Star (⭐) if you like this
 
 ## Installation
 You can install this library by running `npm install` in your terminal.
