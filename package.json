@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "crypto": "^1.0.1",
+    "uuid": "^9.0.0"
+  },
+  "name": "ovoid-new",
+  "description": "Wrapper for unofficial OVO e-wallet API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdciabdul/new-ovoid-nodejs.git"
+  },
+  "keywords": [
+    "ovo",
+    "dana",
+    "e-wallet"
+  ],
+  "author": "Abdul Muttaqin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdciabdul/new-ovoid-nodejs/issues"
+  },
+  "homepage": "https://github.com/fdciabdul/new-ovoid-nodejs#readme"
+}
