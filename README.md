@@ -44,9 +44,23 @@ otp.submitOTP(number,device_id,otp_code,otp,ref_id)
 // will return the otp token 
 
 // loginSecurity
-onst verif = await otp.loginSecurityCode(security_code,otp_token,number,device_id,otp_ref_id)
+const verif = await otp.loginSecurityCode(security_code,otp_token,number,device_id,otp_ref_id)
  .then(data => console.log(data))
     .catch(error => console.error(error));
+```
+
+Example : 
+
+```javascript
+const {OTP,USER} = require('ovoid-new');
+async function main(){
+    const API = new USER();
+    const balance = await  API.getBalance(device_id,token);
+    const walletTrx = await API.getOrderHistory(deviceId, otpToken, page, limit, productType);
+    
+}
+
+main();
 ```
 
 ## Methods
